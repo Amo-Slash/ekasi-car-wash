@@ -1,0 +1,122 @@
+
+body {background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333333;}
+
+/*Header styling*/
+header { background-color: #1a1a2e;
+    padding: 15px;
+    text-align: center;}
+
+
+header a {color: #f5c518;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    font-weight: bold;}
+
+
+header a:hover {color: #ffffff;}
+
+/*Main styles and heading styles*/
+main {max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;}
+
+h1 {
+    color: #1a1a2e;
+    font-size: 2em;
+    margin: 20px 0;}
+
+
+h2 {color: #1a1a2e;
+    margin: 20px 0 10px 0;
+    border-bottom: 3px solid #f5c518;
+    padding-bottom: 5px;}
+
+
+h3 {color: #333333;
+    margin: 10px 0;}
+
+/*Font styling*/
+p {font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;}
+
+/*This styles all links outside the navigation*/
+a {color: #f5c518;
+    text-decoration: none;}
+
+/* This makes images responsive so they fit the screen */
+img {max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;}
+
+/*styles fotr the unordered list*/
+ul {padding-left: 30px;
+    margin: 10px 0;}
+
+/*styles each list item*/
+li {margin: 5px 0;
+    font-size: 16px;}
+
+/*styels the table*/
+table {width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;}
+
+/* This styles the table header row dark with white text */
+th {background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;}
+
+/*This styles each table cell with a border and padding*/
+td {border: 1px solid #dddddd;
+    padding: 10px;
+    background-color: #ffffff;}
+
+/*styles the form labels*/
+label { display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #1a1a2e;}
+
+/*styles the form input fields*/
+input,
+select,
+textarea { display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #cccccc;
+    font-size: 15px;}
+
+/*styles the submit and booking buttons*/
+button {margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #f5c518;
+    color: #1a1a2e;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;}
+
+/*styles the footer*/
+footer { background-color: #1a1a2e;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-style: italic;}
+
+/*layout for smaller screens like phones*/
+@media (max-width: 768px) {
+    main {padding: 15px;}
+
+    h1 {font-size: 1.5em;}
+
+    header a {font-size: 14px;
+        margin: 0 5px;}
+}

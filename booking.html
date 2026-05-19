@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking a car wash - Ekasi Car Wash</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Book Now</a>
+    </header>
+
+<!--Booking page main-->
+<main>
+    <h1>Book a service</h1>
+    <p>Fill in the form below to book your car wash
+        and we will confirm your appointment.</p>
+    
+    <h2>Booking Form</h2>
+    <form action="thankyou.html">
+        <label>Full name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter your phone Number">
+<!--Choose a service-->
+        <label>Choose a service</label>
+        <select>
+            <option>Basic Wash - R80</option>
+            <option>Standard Wash - R150</option>
+            <option>Premium detail - R250</option>
+            <option>Wax Polish - 70</option>
+            <option>Headlight Restoration - R120</option>
+            <option>Scratch Removal - R200</option>
+        </select>
+<!--Choose a date for appoinment-->
+    <label>Please choose a date</label>
+    <input type="date" id="date">
+<!--Choose a time for appoinment-->
+    <label>Please Choose a time</label>
+    <select>
+        <option>08:00am</option>
+        <option>09:00am</option>
+        <option>10:00am</option>
+        <option>11:00am</option>
+        <option>12:00pm</option>
+        <option>13:00pm</option>
+        <option>14:00pm</option>
+        <option>15:00pm</option>
+        <option>16:00pm</option>
+        <option>17:00pm</option>
+        <option>18:00pm</option>
+        <option>19:00pm</option>
+        <option>20:00pm</option>
+        <option>21:00pm</option>
+        <option>22:00pm</option>
+    </select>
+<!--Car type-->
+    <label>Car type</label>
+    <select>
+        <option>Small car(hatchback)</option>
+        <option>Sedan</option>
+        <option>SUV</option>
+        <option>Bakkie</option>
+        <option>Minibus</option>
+    </select>
+<!--Extra notes from customer-->
+    <label>Additional Message</label>
+    <textarea placeholder="Any special request"></textarea>
+    <button type="submit">Book Now</button>
+    
+</main>
+<!--Footer with address-->
+<footer>
+    <p><em>2025 Ekasi Car Wash. Tembisa, Gauteng.</em></p>
+</footer>
+   
+</body>
+</html>
